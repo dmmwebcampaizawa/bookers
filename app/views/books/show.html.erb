@@ -1,0 +1,8 @@
+<p class="green"> Book was successfully created.</p>
+
+<p><span class="bald">Title:</span><%= @book.title %></p>
+
+<p><span class="bald">Body:</span><%= @book.body %></p>
+
+<p><%= link_to "Edit", edit_list_path(@book.id) %> | <%= link_to "Back", books_path %>
+</P>
