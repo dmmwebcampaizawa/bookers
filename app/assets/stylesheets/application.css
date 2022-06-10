@@ -73,8 +73,8 @@ td {
   margin-bottom: 10px
 }
 
-.form_botan{
-  margin-bottom: 10px
+.form_button{
+  margin-bottom: 10px;
 }
 
 .box{
@@ -111,6 +111,12 @@ td {
 }
 
 .form_box:required {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
